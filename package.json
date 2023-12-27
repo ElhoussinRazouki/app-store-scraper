@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/facundoolano/app-store-scraper.git"
+    "url": "https://github.com/ElhoussinRazouki/app-store-scraper"
   },
   "keywords": [
     "mac",
@@ -18,12 +18,8 @@
     "itunes",
     "scraper"
   ],
-  "author": "Facundo Olano",
+  "author": "elhoussin razouki",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/facundoolano/app-store-scraper/issues"
-  },
-  "homepage": "https://github.com/facundoolano/app-store-scraper#readme",
   "dependencies": {
     "axios-https-proxy-fix": "^0.17.1",
     "cheerio": "^1.0.0-rc.2",
