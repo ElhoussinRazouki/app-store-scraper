@@ -55,7 +55,7 @@ describe('Reviews method', () => {
     })
       .then(() => done('should not resolve'))
       .catch((err) => {
-        assert.equal(err.response.statusCode, 501);
+        assert.equal(err.response.status, 501);
         done();
       })
       .catch(done);
